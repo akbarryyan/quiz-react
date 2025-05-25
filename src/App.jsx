@@ -4,10 +4,10 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import LoginPage from "./pages/LoginPage";
-import QuizPage from "./pages/QuizPage";
-import ResultPage from "./pages/ResultPage";
-import Header from "./components/common/Header";
+import LoginPage from "@pages/LoginPage";
+import QuizPage from "@pages/QuizPage";
+import ResultPage from "@pages/ResultPage";
+import Header from "@components/common/Header";
 
 function App() {
   const isLoggedIn = !!localStorage.getItem("user");
